@@ -1,0 +1,102 @@
+/* Write your CSS here */
+.appointments-app {
+  background-image: linear-gradient(#fbc7d4, #9796f0);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.appointments-content-container {
+  background-color: #ffffff;
+  background-size: cover;
+  padding: 20px;
+  border-radius: 15px;
+  width: 800px;
+}
+.form-container {
+  display: flex;
+  justify-content: space-around;
+}
+.form-elements-container {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  color: #171f46;
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+.label-element {
+  color: #b5b7c4;
+  font-family: 'Roboto';
+  padding-bottom: 8px;
+  font-size: 15px;
+}
+.input-element {
+  padding: 8px;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #b5b7c4;
+  margin-bottom: 20px;
+  width: 250px;
+}
+.add-btn {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  width: 60px;
+}
+.appointment-img {
+  width: 300px;
+  height: 250px;
+}
+.appointments-container {
+  display: flex;
+  flex-direction: column;
+}
+.heading-starbtn-container {
+  display: flex;
+  justify-content: space-between;
+}
+.appointments-heading {
+  color: #171f46;
+  font-size: 20px;
+  padding-left: 45px;
+}
+.inActiveBtn {
+  background-color: transparent;
+  border-color: #8b5cf6;
+  color: #8b5cf6;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 14px;
+  width: 100px;
+  height: 30px;
+  margin-top: 15px;
+}
+.activeBtn {
+  background-color: #8b5cf6;
+  border: none;
+  color: #ffffff;
+  border-radius: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 14px;
+  width: 100px;
+  height: 30px;
+  margin-top: 15px;
+}
+.line {
+  height: 2px;
+  margin-top: 30px;
+}
+.appointments-items-container {
+  display: flex;
+  flex-wrap: wrap;
+}
